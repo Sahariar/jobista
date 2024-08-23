@@ -11,9 +11,7 @@
 </head>
 <body>
 <x-header> </x-header>
-    <h1 class="text-3xl font-bold underline">
-        {{ $heading }}
-    </h1>
+{{ $slot }}
 <x-footer> </x-footer>
 </body>
 </html>
